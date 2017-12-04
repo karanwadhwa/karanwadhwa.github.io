@@ -822,7 +822,9 @@ form {
         display: grid;
         grid-column: 1fr 1fr;
         grid-column-gap: 1em;
-        grid-template-areas: "name    email" "message message" "   .    button"; }
+        grid-template-areas: "name    email"
+ "message message"
+ "   .    button"; }
         form .name {
           grid-area: name; }
         form .email {
@@ -869,7 +871,7 @@ footer {
   padding-bottom: 1em;
   text-align: center; }
 
-.social-icons {
+.so-ics {
   width: 90%;
   margin: 0 auto;
   max-width: 15em;
@@ -877,7 +879,7 @@ footer {
   justify-content: space-between;
   margin: 1.75em auto 2em; }
 
-.social-icon {
+.so-ic {
   width: 25%;
   height: 25%; }
 
